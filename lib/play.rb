@@ -36,12 +36,12 @@ def turn(board)
 end
 
 def play(board)
+  turn(board)
   counter = 0
   loop do
     counter += 1
     until counter = 9
       break
     end
-    turn(board)
   end
 end
